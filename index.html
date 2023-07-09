@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=12, initial-scale=1.0">
+    <title>Projeto Omori - Semana do Zero Ao Programador Contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Oxanium:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/omori-logo.png" alt="Logo Omori">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+
+                <li class="personagem selecionado" id="omori" data-name="Omori"
+                    data-description="Descrito como um garoto deprimido, ele vive em uma pequena sala com uma única lâmpada, sem paredes e um gato, referido como espaço branco. Ele é anti-social e auto-consciente, embora ele parece recordar um tempo quando ele não era.">
+                    <img src="./src/imagens/card-omori.jpg" alt="Personagem Omori">
+                </li>
+
+                <li class="personagem" id="basil" data-name="Basil"
+                    data-description="Ele é muito sentimental, guarda lembranças de seus amigos e lembranças felizes por meio de fotos, e planta flores que o lembra de seus amigos.">
+                    <img src="./src/imagens/card-basil.jpg" alt="Personagem Basil">
+                </li>
+
+                <li class="personagem" id="sunny" data-name="Sunny"
+                    data-description="Sunny parece lutar com questões de autoconfiança e autoestima. Ele se percebe como fraco, sem valor e não bom o suficiente. Como o mais novo do grupo, ele frequentemente recorre a outros para cuidar dele, mas se sente culpado por isso pois não acredita que faça algo por seus amigos em troca.">
+                    <img src="./src/imagens/card-sunny.jpg" alt="Personagem Sunny">
+                </li>
+
+                <li class="personagem" id="hero" data-name="Hero"
+                    data-description="Hero é o pacificador do grupo, que tenta conter seus amigos sempre que eles ficam muito agitados. Ele é descrito como tendo uma personalidade branda e apaixonado pelo trabalho doméstico. Hero também tem um lado carismático que usa para encantar os outros.">
+                    <img src="./src/imagens/card-hero.jpg" alt="Personagem Hero">
+                </li>
+
+                <li class="personagem" id="kel" data-name="Kel"
+                    data-description="Kel é um pouco malcriado e impulsivo, sempre se metendo em pequenas brigas com seus amigos. É muito competitivo por natureza, sempre querendo ganhar, e é muito enérgico. Embora seja barulhento e goste de irritar seus amigos, Kel se preocupa com eles e os protege com um forte senso de justiça.">
+                    <img src="./src/imagens/card-kel.jpg" alt="Personagem Kel">
+                </li>
+
+                <li class="personagem" id="aubrey" data-name="Aubrey"
+                    data-description="Aubrey é muito alegre e sempre feliz em brincar com seus amigos. Obstinada e sempre agindo de acordo com seus sentimentos, Aubrey serve como uma fonte constante de moral para seus amigos. Isso se estende a lembrar frequentemente o grupo da coisa certa a fazer sempre que estiverem distraídos.">
+                    <img src="./src/imagens/card-aubrey.jpg" alt="Personagem Aubrey">
+                </li>
+
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/omori-fullbody.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Omori</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Descrito como um "otaku deprimido", ele vive em uma pequena sala com uma única lâmpada, sem paredes
+                    e um gato, referido como espaço branco. Ele é anti-social e auto-consciente, embora ele parece
+                    recordar um tempo quando ele não era.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
